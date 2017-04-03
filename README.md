@@ -179,6 +179,10 @@ console.log(car.currentSpeed); // will print 20
 
 Open the Chrome developer tools and create your own car object. Include all of the properties above and add at least 5 attributes of your own. Write one method that is unique to your car object.
 
+## Objects are Everywhere!
+
+Objects are all over JavaScript syntax. Look throughout the JavaScript code we've encountered so far, look for the dot notation. Find three examples of objects in normal JavaScript syntax. Include your evidence for why your example is definitely an object.1
+
 ## Accessing Data from an Object
 
 Below is a truncated version of some example GA cohort data. The `data` object is a grouping of key-value pairs that describe the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
@@ -188,22 +192,22 @@ var data = {
 	school: "General Assembly",
 	city: "San Francisco",
 	course: "Web Development Immersive",
-	classroom: "4",
+	classroom: "1",
 	students: [{
 		id: 124140,
-		lastName: "Baig",
-		firstName: "Abbas",
-		gitHubUsername: "abbasbaigali"
+		lastName: "Bachir",
+		firstName: "Mahmoud",
+		gitHubUsername: "mickmacks"
 	}, {
 		id: 421124,
-		lastName: "Bak",
-		firstName: "Sera",
-		gitHubUsername: "serabakpak"
+		lastName: "Fong",
+		firstName: "William",
+		gitHubUsername: "promethwill88"
 	}, {
 		id: 824544,
-		lastName: "Brown",
-		firstName: "Alicia",
-		gitHubUsername: "cabrown91"
+		lastName: "Huang",
+		firstName: "Julie",
+		gitHubUsername: "heyjulieh"
 	}]
 }
 
@@ -229,11 +233,13 @@ To access a property, we can use dot-notation or bracket-notation on the key to 
 <details>
   <summary>How would you access the `students` attribute of the `data` object?</summary>
   <p>
+
   ```javascript
   data.students;
   // or
   data["students"];
   ```
+
   </p>
 </details>
 
@@ -248,18 +254,22 @@ The `data.students` array is now accessible by using `studentArray` instead.
 <details>
   <summary>How would you access Alicia's data from within the `data` object?</summary>
   <p>
+
   ```javascript
     data.students[2]
   ```
+
   </p>
 </details>
 
 <details>
   <summary>How would you access Sera's GitHub username?</summary>
   <p>
+
   ```javascript
     data.students[1].gitHubUsername;
   ```
+
   </p>
 </details>
 
@@ -267,9 +277,11 @@ The `data.students` array is now accessible by using `studentArray` instead.
 <details>
   <summary>How would you access Abbas's student id?</summary>
   <p>
+
   ```javascript
     data.students[0].id;
   ```
+
   </p>
 </details>
 
