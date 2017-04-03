@@ -252,7 +252,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 
 <details>
-  <summary>How would you access Alicia's data from within the `data` object?</summary>
+  <summary>How would you access Julie's data from within the `data` object?</summary>
   <p>
 
   ```javascript
@@ -263,7 +263,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 </details>
 
 <details>
-  <summary>How would you access Sera's GitHub username?</summary>
+  <summary>How would you access William's GitHub username?</summary>
   <p>
 
   ```javascript
@@ -275,7 +275,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 
 <details>
-  <summary>How would you access Abbas's student id?</summary>
+  <summary>How would you access Mahmoud's student id?</summary>
   <p>
 
   ```javascript
