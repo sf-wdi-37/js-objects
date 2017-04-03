@@ -21,8 +21,8 @@ If we want to write code of any complexity, we are going to need to understand o
 *After this workshop, developers will be able to:*
 
 - Describe objects as collections of key value pairs.
-- Demonstrate the ability to access any attribute of an object in two ways - `.` syntax and `[]` syntax
-- Display the difference between properties (attributes) and methods, and call an object's methods correctly.
+- Access any attribute of an object in two ways - `.` syntax and `[]` syntax
+- Demonstrate the difference between properties (attributes) and methods, and call an object's methods correctly.
 - Find and display an example of JSON on the web
 
 
